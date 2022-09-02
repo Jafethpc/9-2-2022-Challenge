@@ -6,5 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Lets get to know you!</h1>
+
+          <!-- IMAGE INPUT -->
+      <input type="image" id="image" name="image" src="/Images/Person.jpg" style="height: 200px; width: 200px;" required />
+
+
+      <br>
+      <br />
+
+    <form>
+      <!-- FIRST NAME INPUT -->
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" required />
+
+      <br />
+
+      <!-- MIDDLE NAME INPUT -->
+      <label for="mname">Middle name:</label>
+      <input type="text" id="mname" name="mname" />
+
+      <br />
+
+      <!-- LAST NAME INPUT -->
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" required />
+
+      <br />
+
+      <!-- BIRTHDAY INPUT -->
+      <label for="bday">Birthday:</label>
+      <input type="date" id="bday" name="bday" required />
+
+      <br />
+
+      <!-- GENDER INPUT -->
+      <label for="gender">Gender:</label>
+
+      <label for="gender">Male</label>
+      <input type="radio" id="male" name="gender" />
+
+      <label for="gender">Female</label>
+      <input type="radio" id="female" name="gender" />
+
+      <label for="gender">Non Binary</label>
+      <input type="radio" id="non-binary" name="gender" />
+
+      <br />
+
+      <!-- EMAIL INPUT -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <br />
+
+      <!-- TELEPHONE INPUT -->
+      <label for="tel">Phone Number:</label>
+      <input
+        type="tel"
+        id="tel"
+        name="tel"
+        pattern=""
+        placeholder="XXX-XXX-XXXX"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required
+      />
+
+      <br />
+
+      <!-- GRADE INPUT -->
+      <label for="grade">Grade:</label>
+      <input type="number" id="grade" name="grade" min="9" max="12" required />
+
+      <br />
+
+      <!-- COLOR INPUT -->
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color" required />
+
+      <br />
+
+      <!-- SOCIAL-MEDIA INPUT -->
+      <label for="smedia">Social Media:</label>
+      <input type="url" id="smedia" name="smedia" required />
+
+      <br />
+
+      <!-- SUBMIT INPUT -->
+      <form></form>
+      <label for="submit">Submit</label>
+
+      <input
+        type="button"
+        id="submit"
+        name="submit"
+        style="width: 50px; background-color: red;"
+        required
+      />
+      </form>
+    </form>
+  </body>
 </html>
